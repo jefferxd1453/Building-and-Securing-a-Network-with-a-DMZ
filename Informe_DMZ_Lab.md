@@ -15,7 +15,8 @@ Configurar una DMZ segura usando un router Cisco ISR, aplicando NAT y ACLs para 
 
 > La red diseñada cuenta con una topología de **Estrella**, distribuida de la siguiente manera
 
-![Topología de Red](Evidencias/01_topologia_red_DMZ.png)
+<img width="653" height="402" alt="image" src="https://github.com/user-attachments/assets/0044d458-4558-4493-b5d6-58ee0a01a47c" />
+
 - **Cantidad de redes**: 3
 - **Dispositivos usados**: 7 dispositivos totales:
     - 2 PC´s, Internal y External.
@@ -103,11 +104,13 @@ Se aplicaron las siguientes configuraciones.
 > Después de aplicar las configuraciones estos fueron los resultados de las verificaciones
 
 - Acceso web desde PC_External: ✅
-    ![Acceso HTTP desde la WAN](/Evidencias/02_acceso_web_externo.png)
+  <img width="606" height="399" alt="image" src="https://github.com/user-attachments/assets/3b346fdb-310f-4252-b735-392b5c408e30" />
+
 - Bloqueo de ping externo: ✅
-    ![Bloqueo de ICMP (ping) desde el exterior](/Evidencias/03_bloqueo_ping_externo.png)
+  <img width="589" height="340" alt="image" src="https://github.com/user-attachments/assets/a135c4d2-1ea1-4078-bbc0-8cd1ac71f04f" />
+
 - Aislamiento de la DMZ: ✅
-    ![Aislamiento de la DMZ hacia la LAN interna](/Evidencias/04_aislamiento_dmz_lan.png)
+  <img width="473" height="471" alt="image" src="https://github.com/user-attachments/assets/6bd975aa-81ae-42a9-85e1-f3e66b03bc5c" />
 
 
 ### 6. Conclusiones y recomendaciones
